@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 文明河流域</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rolf2017.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://rolf2017.github.io/post/hugo/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rolf2017.github.io/post/hugo/</guid>
+      <description>Hexo更新出了问题，就折腾到了Hugo。 安装 Homebrew安装 1 $ brew install hugo 检查版本 1 $ hugo version 建立项目站点 1 $ hugo new site /Users/Rolf/Documents/Hugo 添加主题 安装even主题</description>
+    </item>
     
     <item>
       <title>水温水位数据绘图</title>
@@ -54,15 +63,6 @@
       
       <guid>https://rolf2017.github.io/post/sharesoft/</guid>
       <description>从ghost到纯净版装机，从XP到Mac，分享一些目前正在使用的软件。 Windows 从XP到Windows10，折腾的过的软件太多了。Photoshop</description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://rolf2017.github.io/post/hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rolf2017.github.io/post/hugo/</guid>
-      <description>Hexo更新出了问题，就折腾到了Hugo。 安装 #Homebrew安装 1 $ brew install hugo #检查版本 1 $ hugo version 建立项目站点 1 $ hugo new site /Users/Rolf/Documents/Hugo 添加主题 安装even</description>
     </item>
     
   </channel>

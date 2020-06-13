@@ -6,10 +6,19 @@
     <description>Recent content in Mac on 文明河流域</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rolf2017.github.io/categories/mac/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://rolf2017.github.io/post/hugo/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rolf2017.github.io/post/hugo/</guid>
+      <description>Hexo更新出了问题，就折腾到了Hugo。 安装 Homebrew安装 1 $ brew install hugo 检查版本 1 $ hugo version 建立项目站点 1 $ hugo new site /Users/Rolf/Documents/Hugo 添加主题 安装even主题</description>
+    </item>
     
     <item>
       <title>Mac踩坑-2</title>
@@ -27,15 +36,6 @@
       
       <guid>https://rolf2017.github.io/post/macsoft/</guid>
       <description>最近折腾Mac，总结下填过的坑。 Homebrew 入手Mac后，安装的Macport，使用了将近3年的时间。随着最近折腾一些软件，感觉超级不爽，尤其更新ff</description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://rolf2017.github.io/post/hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rolf2017.github.io/post/hugo/</guid>
-      <description>Hexo更新出了问题，就折腾到了Hugo。 安装 #Homebrew安装 1 $ brew install hugo #检查版本 1 $ hugo version 建立项目站点 1 $ hugo new site /Users/Rolf/Documents/Hugo 添加主题 安装even</description>
     </item>
     
   </channel>

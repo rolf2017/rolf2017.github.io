@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Rolf" /><meta name="description" content="Hexo更新出了问题，就折腾到了Hugo。 安装 #Homebrew安装 1 $ brew install hugo #检查版本 1 $ hugo version 建立项目站点 1 $ hugo new site /Users/Rolf/Documents/Hugo 添加主题 安装even" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Rolf" /><meta name="description" content="Hexo更新出了问题，就折腾到了Hugo。 安装 Homebrew安装 1 $ brew install hugo 检查版本 1 $ hugo version 建立项目站点 1 $ hugo new site /Users/Rolf/Documents/Hugo 添加主题 安装even主题" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -40,20 +40,22 @@
 
 
 <meta property="og:title" content="Hugo" />
-<meta property="og:description" content="Hexo更新出了问题，就折腾到了Hugo。 安装 #Homebrew安装 1 $ brew install hugo #检查版本 1 $ hugo version 建立项目站点 1 $ hugo new site /Users/Rolf/Documents/Hugo 添加主题 安装even" />
+<meta property="og:description" content="Hexo更新出了问题，就折腾到了Hugo。 安装 Homebrew安装 1 $ brew install hugo 检查版本 1 $ hugo version 建立项目站点 1 $ hugo new site /Users/Rolf/Documents/Hugo 添加主题 安装even主题" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://rolf2017.github.io/post/hugo/" />
-
+<meta property="article:published_time" content="2020-06-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-06-13T00:00:00+00:00" />
 <meta itemprop="name" content="Hugo">
-<meta itemprop="description" content="Hexo更新出了问题，就折腾到了Hugo。 安装 #Homebrew安装 1 $ brew install hugo #检查版本 1 $ hugo version 建立项目站点 1 $ hugo new site /Users/Rolf/Documents/Hugo 添加主题 安装even">
-
-<meta itemprop="wordCount" content="431">
+<meta itemprop="description" content="Hexo更新出了问题，就折腾到了Hugo。 安装 Homebrew安装 1 $ brew install hugo 检查版本 1 $ hugo version 建立项目站点 1 $ hugo new site /Users/Rolf/Documents/Hugo 添加主题 安装even主题">
+<meta itemprop="datePublished" content="2020-06-13T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-06-13T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="416">
 
 
 
 <meta itemprop="keywords" content="Hugo," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo"/>
-<meta name="twitter:description" content="Hexo更新出了问题，就折腾到了Hugo。 安装 #Homebrew安装 1 $ brew install hugo #检查版本 1 $ hugo version 建立项目站点 1 $ hugo new site /Users/Rolf/Documents/Hugo 添加主题 安装even"/>
+<meta name="twitter:description" content="Hexo更新出了问题，就折腾到了Hugo。 安装 Homebrew安装 1 $ brew install hugo 检查版本 1 $ hugo version 建立项目站点 1 $ hugo new site /Users/Rolf/Documents/Hugo 添加主题 安装even主题"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -119,7 +121,7 @@
       <h1 class="post-title">Hugo</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 0001-01-01 </span>
+        <span class="post-time"> 2020-06-13 </span>
         <div class="post-category">
             <a href="/categories/mac/"> Mac </a>
             </div>
@@ -132,19 +134,21 @@
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li></li>
-      </ul>
-    </li>
+    <li><a href="#安装">安装</a></li>
+    <li><a href="#建立项目站点">建立项目站点</a></li>
+    <li><a href="#添加主题">添加主题</a></li>
+    <li><a href="#启动hugo">启动Hugo</a></li>
+    <li><a href="#部署git">部署Git</a></li>
+    <li><a href="#github页面发布">Github页面发布</a></li>
+    <li><a href="#更新">更新</a></li>
   </ul>
 </nav>
   </div>
 </div>
     <div class="post-content">
       <p>   Hexo更新出了问题，就折腾到了Hugo。</p>
-<h4 id="安装">安装</h4>
-<p>#Homebrew安装</p>
+<h2 id="安装">安装</h2>
+<p>Homebrew安装</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -153,7 +157,7 @@
 <pre class="chroma"><code class="language-fallback" data-lang="fallback">$ brew install hugo
 </code></pre></td></tr></table>
 </div>
-</div><p>#检查版本</p>
+</div><p>检查版本</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -162,7 +166,7 @@
 <pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo version
 </code></pre></td></tr></table>
 </div>
-</div><h4 id="建立项目站点">建立项目站点</h4>
+</div><h2 id="建立项目站点">建立项目站点</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -171,7 +175,7 @@
 <pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo new site /Users/Rolf/Documents/Hugo  
 </code></pre></td></tr></table>
 </div>
-</div><h4 id="添加主题">添加主题</h4>
+</div><h2 id="添加主题">添加主题</h2>
 <p>安装even主题</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -194,7 +198,7 @@ $ git clone https://github.com/olOwOlo/hugo-theme-even themes/even
 <pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo new post/some-content.md
 </code></pre></td></tr></table>
 </div>
-</div><h4 id="启动hugo">启动Hugo</h4>
+</div><h2 id="启动hugo">启动Hugo</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -204,7 +208,7 @@ $ git clone https://github.com/olOwOlo/hugo-theme-even themes/even
 </code></pre></td></tr></table>
 </div>
 </div><p>在浏览器地址栏输入<code>http://localhost:1313/</code>查看。</p>
-<h4 id="部署git">部署Git</h4>
+<h2 id="部署git">部署Git</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -235,15 +239,15 @@ $ git clone https://github.com/olOwOlo/hugo-theme-even themes/even
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git config --global user.name &#34;rolf2017&#34;
-$ git config --global user.email &#34;username@gmail.com&#34; 
+$ git config --global user.email &#34;hemw989@gmail.com&#34; 
 
 #生成SSH秘钥
-$ ssh-keygen -t rsa -f ~/.ssh/id_rsa  -C &#34;username@gmail.com&#34;
+$ ssh-keygen -t rsa -f ~/.ssh/id_rsa  -C &#34;hemw989@gmail.com&#34;
 
 #查看秘钥
 $ cat ~/.ssh/id_rsa_github.pub
 
-#复制秘钥到GitHub→setting→SSH and GPG keys→New SSH key
+#复制秘钥到GitHub → setting → SSH and GPG keys → New SSH key
 
 #检查
 $ ssh -T git@github.com
@@ -261,7 +265,7 @@ origin	git@github.com:rolf2017/rolf2017.github.io.git (fetch)
 origin	git@github.com:rolf2017/rolf2017.github.io.git (push)
 </code></pre></td></tr></table>
 </div>
-</div><h4 id="github页面发布">Github页面发布</h4>
+</div><h2 id="github页面发布">Github页面发布</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -280,7 +284,7 @@ $ git commit -m &#34;Initial&#34;
 $ git push -u origin +master
 </code></pre></td></tr></table>
 </div>
-</div><h4 id="更新">更新</h4>
+</div><h2 id="更新">更新</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -304,7 +308,7 @@ $ git push -u origin +master
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        0001-01-01
+        2020-06-13
         
     </span>
   </p>
@@ -316,12 +320,12 @@ $ git push -u origin +master
           <a href="/tags/hugo/">Hugo</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/sharesoft/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">一些不错的软件</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
         
+        <a class="next" href="/post/pltwatertem/">
+            <span class="next-text nav-default">水温水位数据绘图</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
       </nav>
     </footer>
   </article>
