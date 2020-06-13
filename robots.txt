@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://rolf2017.github.io/sitemap.xml

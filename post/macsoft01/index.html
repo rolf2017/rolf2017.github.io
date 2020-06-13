@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Mac踩坑-2 - 文明河流域</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Rolf" /><meta name="description" content="最近折腾Mac，总结下填过的坑。 Zsh Bash看久了就想换一个，正好看到了Zsh，果断更换之。 Mac已经自带了Zsh，所以直接上 Oh My Zsh 1 2 3 4 5" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.72.0 with theme even" />
+
+
+<link rel="canonical" href="https://rolf2017.github.io/post/macsoft01/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.78f8f17bab244b9ee62ad16480c9584d5fc2db06ae20681d1ca225cefd80767c.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Mac踩坑-2" />
+<meta property="og:description" content="最近折腾Mac，总结下填过的坑。 Zsh Bash看久了就想换一个，正好看到了Zsh，果断更换之。 Mac已经自带了Zsh，所以直接上 Oh My Zsh 1 2 3 4 5" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rolf2017.github.io/post/macsoft01/" />
+<meta property="article:published_time" content="2019-10-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-10-11T00:00:00+00:00" />
+<meta itemprop="name" content="Mac踩坑-2">
+<meta itemprop="description" content="最近折腾Mac，总结下填过的坑。 Zsh Bash看久了就想换一个，正好看到了Zsh，果断更换之。 Mac已经自带了Zsh，所以直接上 Oh My Zsh 1 2 3 4 5">
+<meta itemprop="datePublished" content="2019-10-11T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-10-11T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="895">
+
+
+
+<meta itemprop="keywords" content="Zsh,SSR," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Mac踩坑-2"/>
+<meta name="twitter:description" content="最近折腾Mac，总结下填过的坑。 Zsh Bash看久了就想换一个，正好看到了Zsh，果断更换之。 Mac已经自带了Zsh，所以直接上 Oh My Zsh 1 2 3 4 5"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">文明河流域</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">文明河流域</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Mac踩坑-2</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-10-11 </span>
+        <div class="post-category">
+            <a href="/categories/mac/"> Mac </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#zsh">Zsh</a></li>
+        <li><a href="#ssh">SSH</a></li>
+        <li><a href="#v2ray">v2ray</a></li>
+        <li><a href="#ssr">SSR</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>   最近折腾Mac，总结下填过的坑。</p>
+<h3 id="zsh">Zsh</h3>
+<p>   Bash看久了就想换一个，正好看到了Zsh，果断更换之。</p>
+<p>Mac已经自带了Zsh，所以直接上 Oh My Zsh</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">#检查版本
+$ zsh --version
+#Homebrew
+$ brew install zsh
+#curl
+$ sh -c &#34;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&#34;
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="基本配置">基本配置</h5>
+<p>打开配置文件
+<code>vim ~/.zshrc</code>
+更改主题
+<code>ZSH_THEME=&quot;ys&quot;</code></p>
+<h5 id="安装插件">安装插件</h5>
+<p>检查已安装插件
+<code>ls ~/.oh-my-zsh/plugins/</code></p>
+<p>推荐插件:
+z
+自带插件，添加到配置文件中即可启用，可以帮助你快速跳转到访问过的文件夹。<a href="https://github.com/rupa/z">参考文档</a>
+zsh-syntax-highlighting
+输入正确的常用命令会以绿色高亮显示，输入错误则会显示其他的颜色。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+</code></pre></td></tr></table>
+</div>
+</div><p>zsh-autosuggestions
+输入命令时，会用浅色字体给出建议的命令，按 <code>→</code> 即可自动补全。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+</code></pre></td></tr></table>
+</div>
+</div><p>安装：定位到 <code>plugins</code> 一行，在括号中添加需要的插件名称，以空格分隔。</p>
+<p>更新配置文件</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">source ~/.zshrc
+</code></pre></td></tr></table>
+</div>
+</div><h5 id="error">Error</h5>
+<p>升级oh_my_zsh报错：
+<code>“oh my zsh Cannot pull with rebase: You have unstaged changes. Please commit or stash them. There was an error updating. Try again later?”</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ cd ~/.oh-my-zsh/
+$ git add .
+$ git commit -m &#34;commit message&#34;
+$ upgrade_oh_my_zsh
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="ssh">SSH</h3>
+<p>   备份命令</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">#SSH
+$ ssh -p 22 root@*.*.*.*
+#Centos安装wget
+$ yum -y install wget
+#Centos安装 Curl
+$ yum update -y &amp;&amp; yum install curl -y
+#Debian/Ubuntu 安装 wget
+$ apt-get install wget
+#Ubuntu/Debian 安装 Curl 
+$ apt-get update -y &amp;&amp; apt-get install curl -y
+#BBR加速
+$ chmod +x tcp.sh &amp;&amp; ./tcp.sh
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="v2ray">v2ray</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">#开启80、443端口
+$ firewall-cmd --zone=public --add-port=80/tcp --permanent
+$ firewall-cmd --zone=public --add-port=443/tcp --permanent
+#重启防火墙
+$ firewall-cmd --reload
+
+#Vmess + websocket + TLS + Nginx +网站
+$ wget -N --no-check-certificate -q -O install.sh &#34;https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/master/install.sh&#34; &amp;&amp; chmod +x install.sh &amp;&amp; bash install.sh
+#启动 V2Ray
+$ systemctl start v2ray
+#启动 Nginx
+$ systemctl start nginx
+#开机自动启动 V2Ray
+$ systemctl enable v2ray 
+#开机自动启动 Nginx
+$ systemctl enable nginx 
+#升级V2Ray core
+# bash &lt;(curl -L -s https://install.direct/go.sh)
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="ssr">SSR</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">#一键安装版本，致谢teddysun
+$ wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+$ chmod +x shadowsocks-all.sh
+$ ./shadowsocks-all.sh 
+
+# 编辑配置文件
+$ vi /etc/shadowsocks/config.json  
+
+#SSX
+$ 启动：/etc/init.d/shadowsocks-x start
+$ 停止：/etc/init.d/shadowsocks-x stop
+$ 重启：/etc/init.d/shadowsocks-x restart
+$ 状态：/etc/init.d/shadowsocks-x status
+
+#BBR加速
+$ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+$ chmod +x bbr.sh
+$ ./bbr.sh
+
+#BBR检查
+$ sysctl net.ipv4.tcp_available_congestion_control # ~ = bbr cubic reno
+$ sysctl net.ipv4.tcp_congestion_control # ~ = bbr 
+$ sysctl net.core.default_qdisc # ~ = fq
+$ lsmod | grep bbr # tcp_bbr ~
+
+#查询系统内核
+$ uname -r
+
+#CentOS6 x64 系统安装锐速
+$ wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeder_Install/master/appex.sh &amp;&amp; bash appex.sh install &#39;2.6.32-642.el6.x86_64&#39;
+
+#查看运行状态
+$ /appex/bin/serverSpeeder.sh status     
+#启动锐速
+$ /appex/bin/serverSpeeder.sh start     
+#停止锐速
+$ /appex/bin/serverSpeeder.sh stop     
+#重启锐速
+$ /appex/bin/serverSpeeder.sh restart     
+#卸载锐速
+$ /appex/bin/serverSpeeder.sh uninstall
+
+</code></pre></td></tr></table>
+</div>
+</div>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Rolf</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2019-10-11
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/zsh/">Zsh</a>
+          <a href="/tags/ssr/">SSR</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/pltwatertem/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">水温水位数据绘图</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/macsoft/">
+            <span class="next-text nav-default">Mac踩坑-1</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+      <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
+      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
+      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
+      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
+  <a href="https://rolf2017.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Rolf</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.d7b7ada643c9c1a983026e177f141f7363b4640d619caf01d8831a6718cd44ea.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
