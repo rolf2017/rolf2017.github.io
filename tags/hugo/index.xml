@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on 文明河流域</title>
-    <link>https://rolf2017.github.io/tags/hugo/</link>
+    <link>https://geopsycho.com/tags/hugo/</link>
     <description>Recent content in Hugo on 文明河流域</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="https://rolf2017.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://geopsycho.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo</title>
-      <link>https://rolf2017.github.io/post/hugo/</link>
+      <link>https://geopsycho.com/post/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rolf2017.github.io/post/hugo/</guid>
+      <guid>https://geopsycho.com/post/hugo/</guid>
       <description>Hexo更新出了问题，就折腾到了Hugo。 安装 #Homebrew安装 1 $ brew install hugo #检查版本 1 $ hugo version 建立项目站点 1 $ hugo new site /Users/Rolf/Documents/Hugo 添加主题 安装even</description>
     </item>
     

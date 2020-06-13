@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>文明河流域</title>
-    <link>https://rolf2017.github.io/</link>
+    <link>https://geopsycho.com/</link>
     <description>Recent content on 文明河流域</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rolf2017.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://geopsycho.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>水温水位数据绘图</title>
-      <link>https://rolf2017.github.io/post/pltwatertem/</link>
+      <link>https://geopsycho.com/post/pltwatertem/</link>
       <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rolf2017.github.io/post/pltwatertem/</guid>
+      <guid>https://geopsycho.com/post/pltwatertem/</guid>
       <description>使用处理软件下载的数据直接绘图。 预处理 处理系统下载数据为GB格式，Mapsis不能识别，所以使用Python直接进行绘图，有时间在对其进行美</description>
     </item>
     
     <item>
       <title>Mac踩坑-2</title>
-      <link>https://rolf2017.github.io/post/macsoft01/</link>
+      <link>https://geopsycho.com/post/macsoft01/</link>
       <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rolf2017.github.io/post/macsoft01/</guid>
+      <guid>https://geopsycho.com/post/macsoft01/</guid>
       <description>最近折腾Mac，总结下填过的坑。 Zsh Bash看久了就想换一个，正好看到了Zsh，果断更换之。 Mac已经自带了Zsh，所以直接上 Oh My Zsh 1 2 3 4 5</description>
     </item>
     
     <item>
       <title>Mac踩坑-1</title>
-      <link>https://rolf2017.github.io/post/macsoft/</link>
+      <link>https://geopsycho.com/post/macsoft/</link>
       <pubDate>Sun, 15 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rolf2017.github.io/post/macsoft/</guid>
+      <guid>https://geopsycho.com/post/macsoft/</guid>
       <description>最近折腾Mac，总结下填过的坑。 Homebrew 入手Mac后，安装的Macport，使用了将近3年的时间。随着最近折腾一些软件，感觉超级不爽，尤其更新ff</description>
     </item>
     
     <item>
       <title>一些不错的资源</title>
-      <link>https://rolf2017.github.io/post/sharesite/</link>
+      <link>https://geopsycho.com/post/sharesite/</link>
       <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rolf2017.github.io/post/sharesite/</guid>
+      <guid>https://geopsycho.com/post/sharesite/</guid>
       <description>网络世界拥有一切，好的站点可以节约精力和时间，分享一些优秀资源。 English 从学英语开始，英语一直是无法言说的痛，随着学习渐进，英语已经成为了一种桎梏</description>
     </item>
     
     <item>
       <title>一些不错的软件</title>
-      <link>https://rolf2017.github.io/post/sharesoft/</link>
+      <link>https://geopsycho.com/post/sharesoft/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rolf2017.github.io/post/sharesoft/</guid>
+      <guid>https://geopsycho.com/post/sharesoft/</guid>
       <description>从ghost到纯净版装机，从XP到Mac，分享一些目前正在使用的软件。 Windows 从XP到Windows10，折腾的过的软件太多了。Photoshop</description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://rolf2017.github.io/post/hugo/</link>
+      <link>https://geopsycho.com/post/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rolf2017.github.io/post/hugo/</guid>
+      <guid>https://geopsycho.com/post/hugo/</guid>
       <description>Hexo更新出了问题，就折腾到了Hugo。 安装 #Homebrew安装 1 $ brew install hugo #检查版本 1 $ hugo version 建立项目站点 1 $ hugo new site /Users/Rolf/Documents/Hugo 添加主题 安装even</description>
     </item>
     

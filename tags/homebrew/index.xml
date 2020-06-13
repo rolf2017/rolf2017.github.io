@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homebrew on 文明河流域</title>
-    <link>https://rolf2017.github.io/tags/homebrew/</link>
+    <link>https://geopsycho.com/tags/homebrew/</link>
     <description>Recent content in Homebrew on 文明河流域</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 15 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rolf2017.github.io/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://geopsycho.com/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mac踩坑-1</title>
-      <link>https://rolf2017.github.io/post/macsoft/</link>
+      <link>https://geopsycho.com/post/macsoft/</link>
       <pubDate>Sun, 15 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rolf2017.github.io/post/macsoft/</guid>
+      <guid>https://geopsycho.com/post/macsoft/</guid>
       <description>最近折腾Mac，总结下填过的坑。 Homebrew 入手Mac后，安装的Macport，使用了将近3年的时间。随着最近折腾一些软件，感觉超级不爽，尤其更新ff</description>
     </item>
     

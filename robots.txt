@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://rolf2017.github.io/sitemap.xml
+Sitemap: https://geopsycho.com/sitemap.xml
