@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac on 文明河流域</title>
-    <link>https://geopsycho.com/categories/mac/</link>
+    <link>https://rolf2017.github.io/categories/mac/</link>
     <description>Recent content in Mac on 文明河流域</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 11 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://geopsycho.com/categories/mac/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rolf2017.github.io/categories/mac/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mac踩坑-2</title>
-      <link>https://geopsycho.com/post/macsoft01/</link>
+      <link>https://rolf2017.github.io/post/macsoft01/</link>
       <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://geopsycho.com/post/macsoft01/</guid>
+      <guid>https://rolf2017.github.io/post/macsoft01/</guid>
       <description>最近折腾Mac，总结下填过的坑。 Zsh Bash看久了就想换一个，正好看到了Zsh，果断更换之。 Mac已经自带了Zsh，所以直接上 Oh My Zsh 1 2 3 4 5</description>
     </item>
     
     <item>
       <title>Mac踩坑-1</title>
-      <link>https://geopsycho.com/post/macsoft/</link>
+      <link>https://rolf2017.github.io/post/macsoft/</link>
       <pubDate>Sun, 15 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://geopsycho.com/post/macsoft/</guid>
+      <guid>https://rolf2017.github.io/post/macsoft/</guid>
       <description>最近折腾Mac，总结下填过的坑。 Homebrew 入手Mac后，安装的Macport，使用了将近3年的时间。随着最近折腾一些软件，感觉超级不爽，尤其更新ff</description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://geopsycho.com/post/hugo/</link>
+      <link>https://rolf2017.github.io/post/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://geopsycho.com/post/hugo/</guid>
+      <guid>https://rolf2017.github.io/post/hugo/</guid>
       <description>Hexo更新出了问题，就折腾到了Hugo。 安装 #Homebrew安装 1 $ brew install hugo #检查版本 1 $ hugo version 建立项目站点 1 $ hugo new site /Users/Rolf/Documents/Hugo 添加主题 安装even</description>
     </item>
     

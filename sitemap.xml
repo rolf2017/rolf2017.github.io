@@ -1,175 +1,175 @@
-<?xml-stylesheet type="text/xsl" href="https://geopsycho.com/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://rolf2017.github.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://geopsycho.com/categories/</loc>
+    <loc>https://rolf2017.github.io/categories/</loc>
     <lastmod>2020-02-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/tags/plot/</loc>
+    <loc>https://rolf2017.github.io/tags/plot/</loc>
     <lastmod>2020-02-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/post/</loc>
+    <loc>https://rolf2017.github.io/post/</loc>
     <lastmod>2020-02-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/tags/python/</loc>
+    <loc>https://rolf2017.github.io/tags/python/</loc>
     <lastmod>2020-02-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/tags/</loc>
+    <loc>https://rolf2017.github.io/tags/</loc>
     <lastmod>2020-02-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/categories/work/</loc>
+    <loc>https://rolf2017.github.io/categories/work/</loc>
     <lastmod>2020-02-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/</loc>
+    <loc>https://rolf2017.github.io/</loc>
     <lastmod>2020-02-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/post/pltwatertem/</loc>
+    <loc>https://rolf2017.github.io/post/pltwatertem/</loc>
     <lastmod>2020-02-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/categories/mac/</loc>
+    <loc>https://rolf2017.github.io/categories/mac/</loc>
     <lastmod>2019-10-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/post/macsoft01/</loc>
+    <loc>https://rolf2017.github.io/post/macsoft01/</loc>
     <lastmod>2019-10-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/tags/ssr/</loc>
+    <loc>https://rolf2017.github.io/tags/ssr/</loc>
     <lastmod>2019-10-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/tags/zsh/</loc>
+    <loc>https://rolf2017.github.io/tags/zsh/</loc>
     <lastmod>2019-10-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/tags/homebrew/</loc>
+    <loc>https://rolf2017.github.io/tags/homebrew/</loc>
     <lastmod>2019-09-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/post/macsoft/</loc>
+    <loc>https://rolf2017.github.io/post/macsoft/</loc>
     <lastmod>2019-09-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/tags/english/</loc>
+    <loc>https://rolf2017.github.io/tags/english/</loc>
     <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/tags/site/</loc>
+    <loc>https://rolf2017.github.io/tags/site/</loc>
     <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/post/sharesite/</loc>
+    <loc>https://rolf2017.github.io/post/sharesite/</loc>
     <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/categories/%E8%B5%84%E6%BA%90/</loc>
+    <loc>https://rolf2017.github.io/categories/%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/tags/mac/</loc>
+    <loc>https://rolf2017.github.io/tags/mac/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/tags/opensource/</loc>
+    <loc>https://rolf2017.github.io/tags/opensource/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/categories/soft/</loc>
+    <loc>https://rolf2017.github.io/categories/soft/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/tags/windows/</loc>
+    <loc>https://rolf2017.github.io/tags/windows/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/post/sharesoft/</loc>
+    <loc>https://rolf2017.github.io/post/sharesoft/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/tags/hugo/</loc>
+    <loc>https://rolf2017.github.io/tags/hugo/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://geopsycho.com/post/hugo/</loc>
+    <loc>https://rolf2017.github.io/post/hugo/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

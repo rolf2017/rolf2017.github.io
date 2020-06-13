@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>plot on 文明河流域</title>
-    <link>https://geopsycho.com/tags/plot/</link>
+    <link>https://rolf2017.github.io/tags/plot/</link>
     <description>Recent content in plot on 文明河流域</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://geopsycho.com/tags/plot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rolf2017.github.io/tags/plot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>水温水位数据绘图</title>
-      <link>https://geopsycho.com/post/pltwatertem/</link>
+      <link>https://rolf2017.github.io/post/pltwatertem/</link>
       <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://geopsycho.com/post/pltwatertem/</guid>
+      <guid>https://rolf2017.github.io/post/pltwatertem/</guid>
       <description>使用处理软件下载的数据直接绘图。 预处理 处理系统下载数据为GB格式，Mapsis不能识别，所以使用Python直接进行绘图，有时间在对其进行美</description>
     </item>
     
