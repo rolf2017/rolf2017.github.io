@@ -51,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://rolf2017.github.io/tags/plot/</loc>
+    <loc>https://rolf2017.github.io/categories/plot/</loc>
     <lastmod>2020-02-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -59,13 +59,6 @@
   
   <url>
     <loc>https://rolf2017.github.io/tags/python/</loc>
-    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rolf2017.github.io/categories/work/</loc>
     <lastmod>2020-02-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -121,7 +114,14 @@
   </url>
   
   <url>
-    <loc>https://rolf2017.github.io/tags/site/</loc>
+    <loc>https://rolf2017.github.io/tags/internet/</loc>
+    <lastmod>2018-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rolf2017.github.io/categories/resource/</loc>
     <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -135,20 +135,6 @@
   </url>
   
   <url>
-    <loc>https://rolf2017.github.io/categories/%E8%B5%84%E6%BA%90/</loc>
-    <lastmod>2018-08-21T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rolf2017.github.io/tags/mac/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://rolf2017.github.io/tags/opensource/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -157,13 +143,6 @@
   
   <url>
     <loc>https://rolf2017.github.io/categories/soft/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rolf2017.github.io/tags/windows/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
